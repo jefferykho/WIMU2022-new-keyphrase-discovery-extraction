@@ -49,3 +49,7 @@ Our qualitative analysis shows that combining the discovered dictionary with Key
 #### Why did BIO Tagging perform poorly?
 
 The low F1-score (0.42) is mainly due to **severe class imbalance** (the "O" tag vastly outnumbered phrase tags), **inconsistent labels** derived from limited statistical candidates, and the **inherent complexity of sequence labeling**, which requires more annotated data and training resources than the NLI approach and is less suitable for small datasets.
+
+## Report
+
+For a detailed look at our methodology and full analysis, please see the complete report: [View PDF](./docs/New_Phrase_Discovery_and_Keyword_Extraction_Based_on_Small-Scale_Chinese_Text.pdf)
